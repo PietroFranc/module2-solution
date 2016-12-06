@@ -3,7 +3,7 @@ var app = angular.module('Nuova', []);
 // Singleton
 app.service('NuovaService', function () {
  //Array to buy list 5 elements
- this.listaA=[{nome: "cookies", quantita:10},{nome: "brioche", quantita:5}];
+ this.listaA=[{nome: "cookies", quantita:10},{nome: "brioche", quantita:5},{nome: "salade", quantita:8},{nome: "Coffee", quantita:3},{nome: "Corn Flakes", quantita:9}];
  //Array Already Boughtis empty
  this.listaB=[];
 
